@@ -1,4 +1,4 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -7,6 +7,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frontend", "src\frontend\frontend.csproj", "{8FD374A7-0759-BA08-DD83-0BECCB04A1A1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backend", "src\backend\backend.csproj", "{1A54C3FC-900B-AAEA-3502-101EF4241700}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D05DB1CF-FF16-46AA-AB58-A6C4A19AEB76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Tests", "tests\Backend.Tests\Backend.Tests.csproj", "{95CB9D32-18E4-4EB9-B559-85E0B2E5112E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,6 +26,10 @@ Global
 		{1A54C3FC-900B-AAEA-3502-101EF4241700}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A54C3FC-900B-AAEA-3502-101EF4241700}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A54C3FC-900B-AAEA-3502-101EF4241700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95CB9D32-18E4-4EB9-B559-85E0B2E5112E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95CB9D32-18E4-4EB9-B559-85E0B2E5112E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95CB9D32-18E4-4EB9-B559-85E0B2E5112E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95CB9D32-18E4-4EB9-B559-85E0B2E5112E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -29,6 +37,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8FD374A7-0759-BA08-DD83-0BECCB04A1A1} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{1A54C3FC-900B-AAEA-3502-101EF4241700} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{95CB9D32-18E4-4EB9-B559-85E0B2E5112E} = {D05DB1CF-FF16-46AA-AB58-A6C4A19AEB76}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75527A59-C2D0-4E89-A3CC-BBED06927C98}
