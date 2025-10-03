@@ -1,0 +1,38 @@
+SET IDENTITY_INSERT location ON;
+
+INSERT INTO location (id, city, state, country, created_at, created_by, updated_at, updated_by) VALUES 
+(1, 'Redmond', 'WA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(2, 'San Francisco', 'CA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(3, 'San Jose', 'CA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(4, 'Austin', 'TX', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(5, 'Walldorf', null, 'Germany', GETUTCDATE(), null, GETUTCDATE(), null), 
+(6, 'Mountain View', 'CA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(7, 'Santa Clara', 'CA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(8, 'Pleasanton', 'CA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(9, 'Ottawa', null, 'Canada', GETUTCDATE(), null, GETUTCDATE(), null), 
+(10, 'Sydney', null, 'Australia', GETUTCDATE(), null, GETUTCDATE(), null), 
+(11, 'Bozeman', 'MT', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(12, 'Cambridge', 'MA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(13, 'New York', 'NY', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(14, 'Denver', 'CO', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(15, 'Tel Aviv', null, 'Israel', GETUTCDATE(), null, GETUTCDATE(), null), 
+(16, 'Redwood City', 'CA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(17, 'San Mateo', 'CA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(18, 'Boston', 'MA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(19, 'Atlanta', 'GA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(20, 'Bellevue', 'WA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(21, 'Santa Cruz', 'CA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(22, 'Belmont', 'CA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(23, 'San Ramon', 'CA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(24, 'Vancouver', 'WA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(25, 'Provo', 'UT', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(26, 'Seattle', 'WA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(27, 'Oakland', 'CA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(28, 'Palo Alto', 'CA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(29, 'Munich', null, 'Germany', GETUTCDATE(), null, GETUTCDATE(), null), 
+(30, 'Sunnyvale', 'CA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(31, 'Kirkland', 'WA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(32, 'Glendale', 'CA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null), 
+(33, 'Carpinteria', 'CA', 'USA', GETUTCDATE(), null, GETUTCDATE(), null);
+
+SET IDENTITY_INSERT location OFF;

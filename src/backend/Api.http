@@ -1,0 +1,8 @@
+@host = http://localhost:5234
+
+###
+
+GET {{host}}/weatherforecast
+Accept: application/json
+
+###
