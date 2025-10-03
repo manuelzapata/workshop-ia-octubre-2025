@@ -125,6 +125,13 @@ Eres un desarrollador sénior .NET con experiencia en C#, ASP.NET Core, Blazor y
 
 ---
 
+## Diseño del Sistema
+- ADRs (Architectural Decision Records): `docs/adrs/`
+- Diagramas de Arquitectura - Modelo C4: `docs/architecture/`
+- Diseño de Base de Datos: `docs/database/`
+
+---
+
 ## Interacción con Copilot: cuándo pedir aclaraciones
 - Si falta contexto crítico (target framework exacto, detalles de DI, contratos de API, política de auth), **no asumir**. Inserta un comentario `// TODO: confirmar ...` en lugar de hacer suposiciones.
 - Proveer ejemplos de prompts útiles (pegar estos comentarios donde necesites que Copilot genere código):

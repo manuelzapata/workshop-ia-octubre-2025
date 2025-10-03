@@ -1,6 +1,27 @@
 @backend_HostAddress = http://localhost:5234
 
-GET {{backend_HostAddress}}/weatherforecast/
+### Health
+GET {{backend_HostAddress}}/api/health
+Accept: application/json
+
+### Companies (all)
+GET {{backend_HostAddress}}/api/companies
+Accept: application/json
+
+### Companies filtered by industry
+GET {{backend_HostAddress}}/api/companies?industry=1
+Accept: application/json
+
+### Companies filtered by location
+GET {{backend_HostAddress}}/api/companies?location=1
+Accept: application/json
+
+### Industries
+GET {{backend_HostAddress}}/api/industries
+Accept: application/json
+
+### Locations
+GET {{backend_HostAddress}}/api/locations
 Accept: application/json
 
 ###
